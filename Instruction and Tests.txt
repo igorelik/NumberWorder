@@ -1,0 +1,57 @@
+This is a simple text manipulation program - it takes set of numbers as an input and produces a these numbers in a text format.
+
+The rules are:
+More than a single number is allowed per a single input
+Multiple numbers can be separated by any non-numerical character.
+
+As a result word representation of all numbers is printed one number per line.
+Example: 123 -> onetwothree
+
+Your task?  To get it working :-)
+[Extra credit - convert numbers to proper wording, e.g. 123 -> one hundreed twenty three]
+
+Tests & expected results:
+
+Test 1:
+-------
+12_34
+56
+
+Converted numbers are:
+onetwo
+threefour
+fivesix
+
+Test 2:
+-------
+12 34
+5,6
+
+Converted numbers are:
+onetwo
+threefour
+five
+six
+
+Test 3:
+-------
+12and34
+like56
+
+Converted numbers are:
+onetwo
+threefour
+five
+six
+
+Test 4:
+-------
+js s jss s
+
+No numbers
+	
+Test 6:
+-------
+<just hit enter>
+
+No numbers
