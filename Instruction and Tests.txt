@@ -1,7 +1,7 @@
-This is a simple text manipulation program - it takes set of numbers as an input and produces a these numbers in a text format.
+This is a simple text manipulation program - it takes set of numbers as an input and produces these numbers in a text format.
 
 The rules are:
-More than a single number is allowed per a single input
+More than a single number is allowed per input
 Multiple numbers can be separated by any non-numerical character.
 
 As a result word representation of all numbers is printed one number per line.

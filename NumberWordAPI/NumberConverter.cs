@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace NumberWordAPI
 {
     public class NumberConverter
     {
-        private List<string> numbersAsString = new List<string>();
+        private List<string> numbersAsString;
 
         public bool AddRowString(string numberString)
         {
